@@ -1,0 +1,6 @@
+version: '3'
+services:
+  db:
+    image: "jeffreychen1992/postgresql-sample-db:1"
+    ports:
+      - "5432:5432"
